@@ -1,0 +1,12 @@
+variable "vpc_cidr" {}
+variable "vpc_instance_tenancy" {}
+variable "vpc_region" {}
+variable "modular_project" {}
+variable "modules_private1_cidr_block" {}
+variable "modules_private1_availability_zone" {}
+variable "modules_private2_cidr_block" {}
+variable "modules_private2_availability_zone" {}
+variable "modules_publi1_cidr_block" {}
+variable "modules_public1_availability_zone" {}
+variable "modules_publi2_cidr_block" {}
+variable "modules_public2_availability_zone" {}
